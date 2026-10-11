@@ -11,6 +11,7 @@ import UserDashboard from "./pages/user/Dashboard";
 import MyRequests from "./pages/user/MyRequests";
 import Properties from "./pages/user/Properties";
 import PropertyDetails from "./pages/user/PropertyDetails";
+import Recommended from "./pages/user/Recommended";
 
 import OwnerDashboard from "./pages/owner/OwnerDashboard";
 import MyProperties from "./pages/owner/MyProperties";
@@ -40,6 +41,7 @@ const App = () => {
             <Route path="/user/requests" element={<MyRequests />} />
             <Route path="/user/properties" element={<Properties />} />
             <Route path="/user/properties/:id" element={<PropertyDetails />} />
+            <Route path="/user/recommended" element={<Recommended />} />
 
             <Route path="/user/profile" element={<Profile />} />
           </Route>
